@@ -2,7 +2,7 @@
 
 [Deepika Raghu](https://baug.ethz.ch/en/department/people/staff/personen-detail.MjkzOTY1.TGlzdC82NzksLTU1NTc1NDEwMQ==.html), [Martin Juan José Bucher](https://www.mnbucher.com), [Catherine De Wolf](https://www.catherinedewolf.com/about)
 
-[[ Paper ]](https://google.com) – Published in Resources, Conservation & Recycling Advances (RCR Advances) Journal
+[[ Paper ]](https://google.com) – Published in Resources, Conservation & Recycling Advances (RCR Advances) Journal, August 2023
 
 ## Table of Contents
 1. [Abstract](#abstract)
@@ -19,7 +19,7 @@ The lack of data on existing buildings hinders efforts towards repair, reuse, an
 ![Schematic representation of overall method.](/method.png)
 
 ## Dataset
-Annotated street-level images from cities like Tokyo, NYC, and Zurich highlighting building facade materials. The classes were distinctively identified for each city based on the materiality of the facades and importance for maintenance and possible end-of-life strategizing, including: brick, stucco, rustication, siding, wood, and Metal. A "null” class was added for images without building material information, and an "other” class for materials that were not defined with the given class labels. 
+Annotated street-level images from cities like Tokyo, NYC, and Zurich highlighting building facade materials. The classes were distinctively identified for each city based on the materiality of the facades and importance for maintenance and possible end-of-life strategizing, including: ”brick”, ”stucco”, ”rustication”, ”siding”, ”wood”, and ”metal“. A "null” class was added for images without building material information, and an "other” class for materials that were not definable with the given class labels. 
 
 ## Model
 Three state-of-the-art computer vision models were used for evaluation, namely, Vision Transformer, Swin Transformer V2 and ConvNeXt. Hyperparameters were optimized for each model, and a weighted Binary Cross Entropy (BCE) was used to address class imbalance. Final models were trained using the optimal hyperparameters and three different random seeds. We used a fixed learning rate scheduler with a linear warm-up ratio of 10% and a single-cycle decay based on the cosine function for all models.
@@ -113,6 +113,7 @@ Second, there is a file ```main_finalmodel.py``` that runs ONE full training loo
 .venv/bin/python main_finalmodel.py
 ```
 
+Note: The latter will train three distinct models with the same config, but three different random seeds. The final model performance is reported as mean + standard deviation for each corresponding metric.
 
 ## Citation
 If using our dataset/model, please cite us as follows:
