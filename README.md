@@ -136,5 +136,3 @@ If using our dataset/model, please cite us as follows:
 - [ConvNeXt](https://github.com/facebookresearch/ConvNeXt-V2)
 
 This research was conducted at the Future Cities Lab Global at ETH Zurich. Future Cities Lab Global is supported and funded by the National Research Foundation, Prime Minister’s Office, Singapore under its Campus for Research Excellence and Technological Enterprise (CREATE) programme and ETH Zurich (ETHZ), with additional contributions from the National University of Singapore (NUS), Nanyang Technological University (NTU), Singapore and the Singapore University of Technology and Design (SUTD). This work is also supported by the Swiss National Science Foundation under grant 200021E_215311.
-
-
