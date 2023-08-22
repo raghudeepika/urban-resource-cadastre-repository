@@ -2,7 +2,7 @@
 
 [Deepika Raghu](https://baug.ethz.ch/en/department/people/staff/personen-detail.MjkzOTY1.TGlzdC82NzksLTU1NTc1NDEwMQ==.html), [Martin Juan José Bucher](https://www.mnbucher.com), [Catherine De Wolf](https://www.catherinedewolf.com/about)
 
-[[ Paper ]](https://google.com) – Published in Resources, Conservation & Recycling Advances (RCR Advances) Journal, August 2023
+[[ Paper ]](https://www.sciencedirect.com/science/article/pii/S0921344923002768) – Published in Resources, Conservation & Recycling Advances (RCR Advances) Journal, August 2023
 
 ## Table of Contents
 1. [Abstract](#abstract)
