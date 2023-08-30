@@ -150,7 +150,7 @@ class BuildingFacadeDataset(Dataset):
 					Resize((self.model_height, self.model_width), antialias=True),
 					RandomHorizontalFlip(),
 					ConvertImageDtype(torch.float),
-					#self.fn_normalize,
+					self.fn_normalize,
 				]
 			)
 			if self.do_augm:
